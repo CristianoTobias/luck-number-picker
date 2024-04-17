@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lucky Number Picker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="@@ENDERECO_CSS" />
+  </head>
+  <body>
+    <main>
+      <h1>Luck Number Picker</h1>
+      <form id="form-picker">
+        <div>
+          <label for="maximum-number">Maximum Number</label>
+          <input
+            type="text"
+            id="maximum-number"
+            value="2"
+            step="1"
+            min="2"
+            required
+          />
+        </div>
+        <button type="submit">Picker number</button>
+      </form>
+      <div class="result"></div>
+    </main>
+
+    <script src="@@ENDERECO_JS"></script>
+  </body>
+</html>
